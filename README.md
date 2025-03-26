@@ -3,10 +3,10 @@
 // aaa
 programa {
   funcao inicio() {
-    cadeia nomi, resposta
+    cadeia nom, resposta
     escreva ("Adicione seu nome\n")
-    leia (nomi)
-    escreva ("você se chama ", nomi, ", correto?")
+    leia (nom)
+    escreva ("você se chama ", nom, ", correto?")
     leia (resposta)
     se (resposta == "sim"){
       escreva ("ok, iniciando o programa")
@@ -14,7 +14,7 @@ programa {
       escreva ("então, adicione o seu nome novamente")
     } senao {
       escreva("comando incorreto, escreva com apenas 'sim' ou 'não'")
-    }
+    } escreva ("o programa será aberto, carregando.\ncarregando..\ncarregando...")
   }
 }
 
